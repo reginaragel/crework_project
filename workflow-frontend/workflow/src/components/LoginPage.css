@@ -1,0 +1,114 @@
+.body{
+    background:linear-gradient(rgba(255,255,255,1),rgba(156,147,212,1));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.login-container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 648px;
+    height: 556px;
+    top: 60px;
+    left: 396px;
+    background: linear-gradient(#F7F7F7,#F0F0F0);
+    padding: 60px;
+    gap:32px;
+    border-radius: 16px;
+    border: 1px rgba(206, 206, 206, 1);
+}
+.heading h1{
+    margin-left: 80px;
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57.6px;
+    align-items: center;
+}
+.heading h1 span{
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57.6px;
+    align-items: center;
+    color: #4534AC
+}
+.login-input{
+    width: 528px;
+    height: 290px;
+    gap: 42px;
+    margin-left: 40px;
+}
+.login-input input{
+    width: 528px;
+    height: 136px;
+    gap: 24px;
+    background: #EBEBEB;
+    border: 1px solid rgba(153, 153, 153, 1);
+}
+.login-input input#useremail,#userpassword{
+    display:flex;
+    flex-direction: column;
+    width: 528px;
+    height: 56px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    border-radius: 8px;
+    padding: 16px 12px 16px 12px;
+    border-style: none;
+    margin: 14px;
+    color: rgba(96, 96, 96, 1);
+}
+.button{
+        width: 528px;
+        height: 52px;
+        margin-left: 16px;
+        border-radius: 8px;
+        padding: 8px;
+        gap: 10px;
+        background: linear-gradient(rgba(75,54,204,1),
+        rgba(156,147,212,1));
+        color: white;
+        border-style: none;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24.2px;
+        font-family: Inter;
+        border: 1px;
+}
+.below-text{
+    width: 311px;
+    height: 24px;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+}
+.below-text h3{
+        width: 244px;
+        height: 24px;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24.2px;
+        color: rgba(96, 96, 96, 1);
+}
+.below-text span{
+    margin-top: 4px;
+    display: block;
+    margin-left: 10px;
+}
+.below-text span a{
+    width: 64px;
+    height: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-decoration: none;
+}

@@ -1,0 +1,106 @@
+.grid-box .square1{
+    width: 256.75px;
+    height: 327px;
+    gap: 16px;
+}
+ .grid-box .square1 .top{
+    width: 256.75px;
+    height: 24px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.grid-box .square1 .top h3{
+    width: 126px;
+    height: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: rgba(85,85,85,1);
+    /* display: flex; */
+}
+ .grid-box .square1 .top span img{
+    width: 24px;
+    height: 24px;
+    margin-left: 190px;
+    margin-top: -25px;
+    display: flex;
+}
+.mid{
+    width: 256.75px;
+    height: 231px;
+    border-radius: 8px;
+    border: 1px;
+    padding: 14px 13px 14px 13px;
+    gap: 16px;
+    background:rgba(233,233,233,1);
+}
+ .mid .mid-content{
+    width: 230.75px;
+    height: 170px;
+    gap: 13px;
+}
+ .mid .mid-content h3{
+    width: 230.75px;
+    height: 38px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: rgba(96,96,96,1);
+}
+ .mid .mid-content p{
+    margin-top: -30px;
+    width: 230.75px;
+    height: 51px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: rgba(121, 121, 121, 1);
+}
+.mid .mid-content h4{
+    width: 55px;
+    height: 27px;
+    border-radius: 8px;
+    padding: 6px 8px 6px 8px;
+    gap: 10px;
+    background: rgba(255,107,107,1);
+    color: rgba(221, 221, 221, 1);
+}
+ .mid .mid-content span img{
+    width: 24px;
+    height: 24px;
+    
+}
+ .mid .mid-content span p{
+    width: 83px;
+    height: 17px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: rgba(96,96,96,1);
+    display: flex;
+    padding: 5px;
+    margin-left: 30px;
+    
+}
+ .mid .time{
+    width: 230.75px;
+    height: 17px;
+    justify-content: space-between;
+ }
+ .mid .time h5{
+    width: 53px;
+    height: 17px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: rgba(121, 121, 121, 1);
+}
+.edit{
+    text-decoration: none;
+}
